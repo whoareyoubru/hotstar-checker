@@ -33,3 +33,9 @@ Go to Your Bot And Send Your Account Like this
 ### example@example.com:password 
 
 IT CAN CHECK ONLY ONE ACCOUNT AT ONCE
+
+
+
+
+#### Contact Me 
+[Telegram](t.me/Lakhacc_bot)
