@@ -22,8 +22,9 @@ This app will check if provided username/password is correct.
 
 ` nano bot.py `   
 >Then Get your bot token From botfather and paste in BOT_TOKEN = "YOUR TOKEN" don't remove "" this 
-
-` python bot.py`
+>Then To Save This And Close Type 
+` ctrl + x `  then type y for save
+Thenython bot.py`
 
 
 # HOW TO USE :
