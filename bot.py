@@ -10,7 +10,7 @@ BOT_TOKEN = "YOUR TOKEN HERE"
 
 
 
-bot = telegram.Bot(BOT_TOKEN)
+bot = t  elegram.Bot(BOT_TOKEN)
 def hotstar(update,context):
         try:
             message = update.message.reply_text(f"<b>{update.message.text}</b>\n\n<i>Checking.....</i>",parse_mode="HTML")
