@@ -5,7 +5,7 @@ import telegram
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 
-BOT_TOKEN = "YOUR TOKEN HERE"
+BOT_TOKEN = "1696856327:AAGTwZJDbkVUvfPBN682LsbxXKyVLBpWPnM"
 
 
 
@@ -42,7 +42,7 @@ def hotstar(update,context):
                         [
                             InlineKeyboardButton(
                                 text="Join Us",
-                                url = "t.me/heavenbots"
+                                url = "t.me/ExploitzBots"
                             )
                         ]
                     ]
@@ -54,7 +54,7 @@ def hotstar(update,context):
                 [[
                     InlineKeyboardButton(
                         text="Join Us",
-                        url="t.me/heavenbots"
+                        url="t.me/ExploitzBots"
                     )
 
                 ]]
@@ -65,11 +65,11 @@ def hotstar(update,context):
 
 def help(update, context):
     update.message.reply_text(
-        f"Hey {update.message.from_user.full_name}\n\n ITS ME HOTSTAR CHECKER BOT \n\n\nTo Use Me Send Me Message Like This \n\nExample@example.com:example password\n\n\nTHIS Bot Is Made By @Heavenbots")
+        f"Hey {update.message.from_user.full_name}\n\n ITS ME HOTSTAR CHECKER BOT \n\n\nTo Use Me Send Me Message Like This \n\nExample@example.com:example password\n\n\nTHIS Bot Is Made By @ExploitzBots")
 
 
 def start(update,context):
-        update.message.reply_text(f"<i>Hey </i><a href='tg://user?id={update.message.chat_id}'>{update.message.from_user.first_name}</a>\n\n<i><b>I Am hotstar Checker</b> \n\nTo Know How to Use Me Type </i>/help \n\n<code>Made By Heaven Bots</code>",parse_mode="HTML")
+        update.message.reply_text(f"<i>Hey </i><a href='tg://user?id={update.message.chat_id}'>{update.message.from_user.first_name}</a>\n\n<i><b>I Am hotstar Checker</b> \n\nTo Know How to Use Me Type </i>/help \n\n<code>Made By ExploitzBots</code>",parse_mode="HTML")
 
 
 
