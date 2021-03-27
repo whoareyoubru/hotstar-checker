@@ -5,7 +5,7 @@ import telegram
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 
-BOT_TOKEN = "1760279768:AAFCegpg68v4UeyBSMVARpgr7InkA5rMEYw"
+BOT_TOKEN = "1773791403:AAERD9Lg7dcjrObJUBh4sMyfclTmEYbjnak"
 
 
 
@@ -42,7 +42,7 @@ def hotstar(update,context):
                         [
                             InlineKeyboardButton(
                                 text="Join Us",
-                                url = "t.me/ExploitzBots"
+                                url = "t.me/MadPremium"
                             )
                         ]
                     ]
