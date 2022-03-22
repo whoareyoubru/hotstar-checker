@@ -1,13 +1,16 @@
+import re
+import sys
+from os import getenv
+
 from dotenv import load_dotenv
-import os
 
 if os.path.exists("dangernetwork.env"):
     load_dotenv("dangernetwork.env")
 else:
     load_dotenv()
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-OWNER_NAME = os.environ.get("OWNER_NAME", None)
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", None)
-SUPPORT_CHANNEL = os.environ.get("SUPPORT_CHANNEL", None)
+BOT_TOKEN = getenv("BOT_TOKEN")
+OWNER_NAME = getenv("OWNER_NAME")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL")
 
