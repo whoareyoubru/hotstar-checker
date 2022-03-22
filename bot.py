@@ -3,7 +3,7 @@ import json
 from telegram.ext import Updater, CommandHandler,MessageHandler, Filters
 import telegram
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
-
+from config import BOT_TOKEN, OWNER_NAME, SUPPORT_GROUP, SUPPORT_CHANNEL
 
 BOT_TOKEN = "YOUR TOKEN HERE"
 
