@@ -1,3 +1,8 @@
+# deploy 
+
+[Click Here](https://heroku.com/deploy?template=https://github.com/AvikaTrivedi/hotstar-checker)
+
+
 # hotstar account checker
 
 This app will check if provided username/password is correct.
