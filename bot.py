@@ -61,12 +61,18 @@ def hotstar(update,context):
 
 def help(update, context):
     update.message.reply_text(
-        f"Hey {update.message.from_user.full_name}\n\n ITS ME HOTSTAR CHECKER BOT \n\n\nTo Use Me Send Me Message Like This \n\nExample@example.com:example password\n\n\nTHIS Bot Is Made By @{OWNER_NAME}")
+        f"Hey {update.message.from_user.full_name}\n\n ITS ME HOTSTAR CHECKER BOT \n\n\nTo Use Me Send Me Message Like This \n\nExample@example.com:example password\n\n\nTHIS Bot Is Made By @{OWNER_NAME}"
+        reply_markup=InlineKeyboardMarkup(buttons),
+        parse_mode="HTML"
+    )
 
 
 def start(update,context):
-        update.message.reply_text(f"<i>Hey </i><a href='tg://user?id={update.message.chat_id}'>{update.message.from_user.first_name}</a>\n\n<i><b>I Am hotstar Checker</b> \n\nTo Know How to Use Me Type </i>/help \n\n<code>Made By @{OWNER_NAME}</code>",parse_mode="HTML")
-
+    update.message.reply_text(
+        f"<i>Hey </i><a href='tg://user?id={update.message.chat_id}'>{update.message.from_user.first_name}</a>\n\n<i><b>I Am hotstar Checker</b> \n\nTo Know How to Use Me Type </i>/help \n\n<code>Made By @{OWNER_NAME}</code>",
+        reply_markup=InlineKeyboardMarkup(buttons),
+        parse_mode="HTML"
+    )
 
 
 def main():
