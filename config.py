@@ -9,5 +9,5 @@ else:
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
 OWNER_NAME = os.environ.get("OWNER_NAME", None)
 SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", None)
-CHANNEL = os.environ.get("SUPPORT_CHANNEL", None)
+SUPPORT_CHANNEL = os.environ.get("SUPPORT_CHANNEL", None)
 
