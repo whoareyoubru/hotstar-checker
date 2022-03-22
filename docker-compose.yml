@@ -1,0 +1,9 @@
+version: "3.10"
+services:
+  worker:
+    build: .
+    environment:
+      BOT_TOKEN: $BOT_TOKEN
+      SUPPORT_CHANNEL: $SUPPORT_CHANNEL
+      SUPPORT_GROUP: $SUPPORT_GROUP
+      OWNER_NAME: $OWNER_NAME
