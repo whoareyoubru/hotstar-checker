@@ -1,7 +1,8 @@
 from dotenv import load_dotenv
+import os
 
-if os.path.exists("my.env"):
-    load_dotenv("my.env")
+if os.path.exists("dangernetwork.env"):
+    load_dotenv("dangernetwork.env")
 else:
     load_dotenv()
 
