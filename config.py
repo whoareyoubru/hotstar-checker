@@ -5,10 +5,9 @@ if os.path.exists("dangernetwork.env"):
     load_dotenv("dangernetwork.env")
 else:
     load_dotenv()
-getenv = os.environ.get
 
-BOT_TOKEN = getenv("BOT_TOKEN")
-OWNER_NAME = getenv("OWNER_NAME")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP")
-CHANNEL = getenv("SUPPORT_CHANNEL")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+OWNER_NAME = os.environ.get("OWNER_NAME", None)
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", None)
+CHANNEL = os.environ.get("SUPPORT_CHANNEL", None)
 
