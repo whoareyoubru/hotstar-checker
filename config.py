@@ -6,3 +6,7 @@ else:
     load_dotenv()
 
 BOT_TOKEN = getenv("BOT_TOKEN")
+OWNER_NAME = getenv("OWNER_NAME")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP")
+CHANNEL = getenv("SUPPORT_CHANNEL")
+
