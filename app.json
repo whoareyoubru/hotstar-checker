@@ -1,0 +1,34 @@
+{
+    "name": "Hotstar checker",
+    "description": "Hotstar account checker bot by dangernetwork",
+    "logo": "https://telegra.ph/file/4ae2ab63eaf27a1e79b54.jpg",
+    "keywords": [
+    "Accountchecker",
+    "dangernetwork",
+    "dangergiveaways"
+    ],
+    "stack": "container",
+    "env": {
+        "BOT_TOKEN": {
+        "description": "Put HTTP access token of your bot , get it from @BotFather",
+        "value": "",
+        "required": true
+      },
+        "SUPPORT_CHANNEL": {
+        "description": "Username of Support Channel / If your Channel is private then put the value from your invite link for example if your invite link is https://t.me/abAbOBu then put abAbOBu only  (caution!!! Don't use '@')",
+        "value": "",
+        "required": true
+      },
+        "SUPPORT_GROUP": {
+        "description": "Username of Support group / If your group is private then put the value from your invite link for example if your invite link is https://t.me/abAbOBu then put abAbOBu only  (caution!!! Don't use '@')",
+        "value": "",
+        "required": true
+      },
+        "OWNER_NAME": {
+        "description": "Username of user / community channel / group , who owns the bot ( caution!!!, Don't use '@' )",
+        "value": "",
+        "required": true
+
+        }
+    }
+}
